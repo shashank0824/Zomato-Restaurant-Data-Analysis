@@ -26,31 +26,7 @@ Zomato dataset cointains following columns:
 21. Votes: Number of ratings casted by people.
 
 
-# Tasks to Compelete are :
-1. City with cheap restaurants
-2. City with largest number of votes
-3. City with most expensive restaurants
-4. City with excellent rating
-5. From which city maximum hotels are listed in Zomato and from which Locality
-6. How many of restaurants accept online delivery
-
-# Steps for EDA
-Importing Dataset : import the data set using python library Pandas.
-
-have a look at the dataset using .head() meathod.
-
-Drop some not useful columns like currency.
-
-Check for null values in the dataset using .isnull() method. If any null value is found fill it with either mean or mode.
-
-After the data clean up, now look at the tasks to complete. 
-
-To understand the rating count, group the data by rating columns and create a new column named as "rating count". 
-
-plotted countplot for understanding  "no. of restaurant supports online delivery" and barplot for "maximum no. of restaurant listed on zomato", "City with top rated restaurant", Top 10 cuisines on zomato", "Top 10 city voted on zomato", "Cities with cheap restaurant" and "Cities with most expensive restaurants".
-
-Users can find out many other things using this Zomato EDA 
-
+ 
 # Conclusions
 From this EDA we've drawn many inferences like: 
 1. Restaurants rating is categorized in six categories - "Not rated, Average, Good, Very good and Excellent".
@@ -61,7 +37,4 @@ From this EDA we've drawn many inferences like:
 6. "Bangalore" was the  top Voted city on zomato.
 7. New delhi has the cheapest restaurants of India and also the most expensive ones.
 
-# References
 
-Dataset : https://www.kaggle.com/shrutimehta/zomato-restaurants-data 
-(This dataset is for whole world)
